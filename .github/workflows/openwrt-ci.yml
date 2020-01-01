@@ -7,13 +7,13 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 # 
 
-name: OpenWrt默认配置
+#name: OpenWrt默认配置
 
-on:
-  schedule:
-     - cron: 0 20 * * *
-  push:
-     branches: 
+#on:
+  #schedule:
+     #- cron: 0 20 * * *
+  #push:
+     #branches: 
       - master
 
 jobs:
